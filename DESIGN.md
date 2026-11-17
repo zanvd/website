@@ -136,6 +136,7 @@ All transitions are 150ms ease. Apply every hover style to `:focus-visible` as w
 
 ## Decisions and open items
 
+- **Dark mode:** follows `prefers-color-scheme` by default, with a header toggle (`static/theme.js`) that sets `data-theme` on `<html>` and remembers the choice in `localStorage`; an inline script in `base.html` applies it before first paint. Tokens are overridden in one `@media` block in `styles.css`: ground `#0C0E10`, surface `#14171B`, `ink` (dark surfaces) `#1A1E23`, `fg` (primary text and strong rules) `#ECEDE8`, text-2 `#C4C8CC`, muted `#9BA1A8`, rule `#2A2E34`, accent `#34D399` with `--on-accent` `#0C0E10` for hover text. `ink` is now only for dark surfaces; primary text uses `fg`. `theme-color` has light and dark variants.
 - **No CV download.** The page is the CV, so the "Download CV" button and the mobile menu "CV (PDF)" link from the mockups were removed.
 - **Project links** point at the real repos: `ledger-beetle`, `slumber-mill`, `ddv-reporter`, `accountant` (Finances tracker), `loterija` (Lottery scraper), all under `github.com/zanvd`.
 - **Manifest:** `theme_color` is `#F6F6F3` to match the `<meta name="theme-color">`. `display` stays `browser`, so the site is not an installable app.
