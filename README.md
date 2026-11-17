@@ -25,7 +25,10 @@ Requires Docker. The Zola version is pinned in the `Makefile`.
 
 ## Deploy
 
-Cloudflare Workers (static assets), built from `master`: build command `zola build`, deploy command `npx wrangler deploy`, build variable `ZOLA_VERSION=0.23.6`. `wrangler.jsonc` serves `public/`.
+Cloudflare Workers (static assets), built from `master`: build command `sh scripts/cf-build.sh`
+(downloads Zola, since the build image lacks it), deploy command `npx wrangler deploy`,
+build variable `ZOLA_VERSION=0.23.6`.
+`wrangler.jsonc` serves `public/`.
 
 ## License
 
