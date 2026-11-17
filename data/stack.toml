@@ -1,0 +1,23 @@
+[[group]]
+label = "LANGUAGES"
+items = "Go, TypeScript, Python, PHP"
+
+[[group]]
+label = "FRAMEWORKS"
+items = "NestJS, Express, Django, FastAPI, Symfony, CakePHP"
+
+[[group]]
+label = "DATA"
+items = "PostgreSQL, MySQL, Redis, TigerBeetle, Elasticsearch"
+
+[[group]]
+label = "EVENTS & REALTIME"
+items = "Kafka, RabbitMQ, Centrifugo, Watermill"
+
+[[group]]
+label = "APIS"
+items = "REST, GraphQL, gRPC, websockets"
+
+[[group]]
+label = "INFRA & OPS"
+items = "Docker, Kubernetes, GCP, AWS + Terraform, Grafana, CI/CD"

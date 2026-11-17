@@ -1,0 +1,24 @@
+[[repo]]
+name = "LiveKit Server SDK"
+path = "livekit/server-sdk-go"
+lang = "Go"
+
+[[repo]]
+name = "Cobra"
+path = "spf13/cobra"
+lang = "Go"
+
+[[repo]]
+name = "Watermill"
+path = "ThreeDotsLabs/watermill"
+lang = "Go"
+
+[[repo]]
+name = "go-arg"
+path = "alexflint/go-arg"
+lang = "Go"
+
+[[repo]]
+name = "Symfony"
+path = "symfony/symfony"
+lang = "PHP"

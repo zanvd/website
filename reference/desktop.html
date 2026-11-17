@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Žan V. Dragan — Software Engineer</title>
+<!-- Design reference exported from the design canvas. Static markup with inline styles; not production code. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=JetBrains+Mono:wght@400;500&amp;family=Space+Grotesk:wght@500;600&amp;display=swap">
+<style>
+body{margin:0;background:#F6F6F3}
+a{color:#121417}a:hover{color:#047857}
+.nav-cta{transition:background-color .15s ease, color .15s ease, border-color .15s ease}
+.nav-cta:hover,.nav-cta:focus-visible{background:#047857 !important;border-color:#047857 !important;color:#FFFFFF !important}
+.foot-link{transition:color .15s ease}
+.foot-link:hover,.foot-link:focus-visible{color:#34D399 !important}
+.os-row{transition:background-color .15s ease, box-shadow .15s ease}
+.os-row:hover,.os-row:focus-visible{background:#ECEDE8;box-shadow:-16px 0 0 #ECEDE8,16px 0 0 #ECEDE8}
+</style>
+</head>
+<body>
+<div style="width: 100%; background: #F6F6F3; color: #121417; font-family: Inter, system-ui, sans-serif; font-size: 16px; line-height: 1.6">
+
+<!-- NAV -->
+<header style="position: sticky; top: 0; z-index: 10; background: rgba(246,246,243,0.92); backdrop-filter: blur(8px); border-bottom: 1px solid #DCDDD8">
+<nav aria-label="Primary" style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#top" style="font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500; text-decoration: none; color: #121417">žan<span style="color: #047857">.</span>v<span style="color: #047857">.</span>dragan</a>
+<div style="display: flex; flex-wrap: wrap; align-items: center; gap: 28px; font-size: 14px; font-weight: 500">
+<a href="#work" style="text-decoration: none">Experience</a>
+<a href="#stack" style="text-decoration: none">Stack</a>
+<a href="#projects" style="text-decoration: none">Projects</a>
+<a href="#open-source" style="text-decoration: none">Open source</a>
+<a class="nav-cta" href="#contact" style="display: inline-flex; align-items: center; gap: 8px; min-height: 44px; padding: 0 18px; border: 1px solid #121417; border-radius: 999px; text-decoration: none; color: #121417">Get in touch</a>
+</div>
+</nav>
+</header>
+
+<!-- HERO -->
+<section id="top" style="max-width: 1200px; margin: 0 auto; padding: 112px 32px 96px; display: flex; flex-wrap: wrap; gap: 64px; align-items: flex-end">
+<div style="flex: 999 1 560px; min-width: 0">
+<p style="margin: 0 0 28px; font-family: 'JetBrains Mono', monospace; font-size: 13px; letter-spacing: 0.04em; color: #5B6068">SOFTWARE ENGINEER · LJUBLJANA, SLOVENIA</p>
+<h1 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: clamp(44px, 6.4vw, 84px); line-height: 1.02; letter-spacing: -0.035em">Backend systems, built to <span style="color: #047857">deliver</span>.</h1>
+<p style="margin: 32px 0 0; max-width: 600px; font-size: 19px; line-height: 1.6; color: #3A3E44">Over nine years of designing APIs, event-driven services and the infrastructure underneath them, for fintech, crypto, iGaming, speech&#8209;AI and e&#8209;commerce, in Go, TypeScript, Python and PHP.</p>
+<div style="margin-top: 40px; display: flex; flex-wrap: wrap; gap: 12px">
+<a class="nav-cta" href="#work" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 24px; background: #121417; color: #F6F6F3; border-radius: 999px; text-decoration: none; font-weight: 500; font-size: 15px">See my work
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M19 12l-7 7-7-7"></path></svg></a>
+<a class="nav-cta" href="#" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 24px; border: 1px solid #121417; color: #121417; border-radius: 999px; text-decoration: none; font-weight: 500; font-size: 15px">Download CV
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4M7 10l5 5 5-5M12 15V3"></path></svg></a>
+</div>
+</div>
+
+<!-- spec card -->
+<div style="flex: 1 1 340px; min-width: 0; background: #121417; color: #E9EAE6; border-radius: 16px; padding: 28px 28px 24px; font-family: 'JetBrains Mono', monospace; font-size: 14px; line-height: 1.5">
+<div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px">
+<span style="color: #9BA1A8">~/zan $ <span style="color: #F6F6F3">whoami</span></span>
+<span style="display: flex; gap: 6px" aria-hidden="true"><span style="width: 10px; height: 10px; border-radius: 50%; background: #3A3E44"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #3A3E44"></span><span style="width: 10px; height: 10px; border-radius: 50%; background: #34D399"></span></span>
+</div>
+<dl style="margin: 0; display: grid; grid-template-columns: 96px 1fr; row-gap: 12px; column-gap: 16px">
+<dt style="color: #9BA1A8">name</dt><dd style="margin: 0">Žan V. Dragan</dd>
+<dt style="color: #9BA1A8">role</dt><dd style="margin: 0">Software engineer</dd>
+<dt style="color: #9BA1A8">based</dt><dd style="margin: 0">Ljubljana · remote</dd>
+<dt style="color: #9BA1A8">since</dt><dd style="margin: 0">2016</dd>
+<dt style="color: #9BA1A8">langs</dt><dd style="margin: 0">go, ts, python, php</dd>
+<dt style="color: #9BA1A8">focus</dt><dd style="margin: 0">apis · events · data</dd>
+</dl>
+<div style="margin-top: 22px; padding-top: 18px; border-top: 1px solid #2A2E34; color: #9BA1A8">→ contributor to <span style="color: #34D399">open-source</span> projects</div>
+</div>
+</section>
+
+<!-- STATS STRIP -->
+<section aria-label="At a glance" style="border-top: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))">
+<div style="padding: 32px 24px 32px 0">
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 44px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">9<span style="color: #047857">+</span></div>
+<div style="margin-top: 10px; font-size: 14px; color: #5B6068">years shipping production software</div>
+</div>
+<div style="padding: 32px 24px; border-left: 1px solid #DCDDD8">
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 44px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">4</div>
+<div style="margin-top: 10px; font-size: 14px; color: #5B6068">languages in production</div>
+</div>
+<div style="padding: 32px 24px; border-left: 1px solid #DCDDD8">
+<div style="font-family: 'Space Grotesk', sans-serif; font-size: 44px; font-weight: 600; letter-spacing: -0.03em; line-height: 1">3</div>
+<div style="margin-top: 10px; font-size: 14px; color: #5B6068">API styles: REST, GraphQL, gRPC</div>
+</div>
+</div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="work" style="max-width: 1200px; margin: 0 auto; padding: 128px 32px 0">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 48px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.1"><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500; color: #047857; vertical-align: top; margin-right: 14px">01</span>Experience</h2>
+</div>
+
+<div style="border-top: 1px solid #121417">
+<!-- row -->
+<article style="display: flex; flex-wrap: wrap; gap: 16px 48px; padding: 36px 0; border-bottom: 1px solid #DCDDD8">
+<div style="flex: 0 0 200px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068; line-height: 1.7">03/2025 — 06/2026<br>Remote</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em">GateHub</h3>
+<p style="margin: 4px 0 0; font-size: 14px; font-weight: 500; color: #5B6068">Fintech &amp; crypto · Microservices backend</p>
+<p style="margin: 14px 0 0; max-width: 640px; color: #3A3E44">Built NestJS and Express microservices in TypeScript on MySQL and Redis, developed GraphQL and REST APIs, handled events with RabbitMQ and designed new features, running on Docker, Kubernetes and Google Cloud.</p>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">TypeScript</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">NestJS</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">MySQL</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">RabbitMQ</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">GraphQL</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Kubernetes</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">GCP</span>
+</div>
+</div>
+</article>
+
+<article style="display: flex; flex-wrap: wrap; gap: 16px 48px; padding: 36px 0; border-bottom: 1px solid #DCDDD8">
+<div style="flex: 0 0 200px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068; line-height: 1.7">06/2024 — 09/2024<br>Ljubljana</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em">Soniox</h3>
+<p style="margin: 4px 0 0; font-size: 14px; font-weight: 500; color: #5B6068">Speech AI · APIs &amp; ML data tooling</p>
+<p style="margin: 14px 0 0; max-width: 640px; color: #3A3E44">Developed REST and gRPC APIs with Django (DRF, Django Ninja), designed features and architecture, built a FastAPI + SQLAlchemy proof of concept, and prepared ML training data with Python, parallelised with Ray.</p>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Python</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Django</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">FastAPI</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">gRPC</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">PostgreSQL</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Ray</span>
+</div>
+</div>
+</article>
+
+<article style="display: flex; flex-wrap: wrap; gap: 16px 48px; padding: 36px 0; border-bottom: 1px solid #DCDDD8">
+<div style="flex: 0 0 200px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068; line-height: 1.7">10/2022 — 05/2024<br>Remote</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em">BitStarz Casino</h3>
+<p style="margin: 4px 0 0; font-size: 14px; font-weight: 500; color: #5B6068">iGaming · Platform backend in Go</p>
+<p style="margin: 14px 0 0; max-width: 640px; color: #3A3E44">Backend for an online casino platform: PostgreSQL queries, Kafka event handling, websockets via Centrifugo, GraphQL and gRPC APIs, Redis caching and sessions, with Grafana monitoring.</p>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Go</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Kafka</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Centrifugo</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">PostgreSQL</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">gRPC</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Grafana</span>
+</div>
+</div>
+</article>
+
+<article style="display: flex; flex-wrap: wrap; gap: 16px 48px; padding: 36px 0; border-bottom: 1px solid #DCDDD8">
+<div style="flex: 0 0 200px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068; line-height: 1.7">01/2018 — 08/2022<br>Ljubljana</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em">PROGMBH</h3>
+<p style="margin: 4px 0 0; font-size: 14px; font-weight: 500; color: #5B6068">E-commerce SaaS · Full-stack &amp; integrations</p>
+<p style="margin: 14px 0 0; max-width: 640px; color: #3A3E44">E-commerce development with CakePHP, Symfony and TypeScript; product requirements and enterprise clients; an Nginx + Lua load balancer, in-house libraries, Bitbucket CI/CD, Terraform on AWS, and integrations with Stripe, Braintree, Coinbase, Zapier and ERPs.</p>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">PHP</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Symfony</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">TypeScript</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Nginx / Lua</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Stripe</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Terraform</span>
+</div>
+</div>
+</article>
+
+<article style="display: flex; flex-wrap: wrap; gap: 16px 48px; padding: 36px 0; border-bottom: 1px solid #DCDDD8">
+<div style="flex: 0 0 200px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068; line-height: 1.7">06/2016 — 12/2017<br>Ljubljana</div>
+<div style="flex: 999 1 480px; min-width: 0">
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 28px; font-weight: 600; letter-spacing: -0.02em">Result</h3>
+<p style="margin: 4px 0 0; font-size: 14px; font-weight: 500; color: #5B6068">Web development · Legacy modernisation</p>
+<p style="margin: 14px 0 0; max-width: 640px; color: #3A3E44">Web development with PHP and ExtJS, porting COBOL applications to PHP, Groovy scripting, and administering Jira and Confluence.</p>
+<div style="margin-top: 18px; display: flex; flex-wrap: wrap; gap: 8px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">PHP</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">ExtJS</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">COBOL</span><span style="padding: 4px 10px; border: 1px solid #DCDDD8; border-radius: 6px; background: #FFFFFF">Groovy</span>
+</div>
+</div>
+</article>
+</div>
+
+<p style="margin: 28px 0 0; font-size: 14px; color: #5B6068">Education: Faculty of Computer and Information Science, University of Ljubljana · 2014 — 2017</p>
+</section>
+
+<!-- STACK -->
+<section id="stack" style="max-width: 1200px; margin: 0 auto; padding: 128px 32px 0">
+<h2 style="margin: 0 0 48px; font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.1"><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500; color: #047857; vertical-align: top; margin-right: 14px">02</span>Stack</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); border-top: 1px solid #121417; border-left: 1px solid #DCDDD8">
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">LANGUAGES</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">Go, TypeScript, Python, PHP</p>
+</div>
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">FRAMEWORKS</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">NestJS, Express, Django, FastAPI, Symfony, CakePHP</p>
+</div>
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">DATA</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">PostgreSQL, MySQL, Redis, TigerBeetle, Elasticsearch</p>
+</div>
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">EVENTS &amp; REALTIME</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">Kafka, RabbitMQ, Centrifugo, Watermill</p>
+</div>
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">APIS</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">REST, GraphQL, gRPC, websockets</p>
+</div>
+<div style="padding: 28px; border-right: 1px solid #DCDDD8; border-bottom: 1px solid #DCDDD8; background: #FFFFFF">
+<h3 style="margin: 0 0 14px; font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; letter-spacing: 0.06em; color: #5B6068">INFRA &amp; OPS</h3>
+<p style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 500; line-height: 1.4">Docker, Kubernetes, GCP, AWS + Terraform, Grafana, CI/CD</p>
+</div>
+</div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" style="max-width: 1200px; margin: 0 auto; padding: 128px 32px 0">
+<div style="display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 48px">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.1"><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500; color: #047857; vertical-align: top; margin-right: 14px">03</span>Side projects</h2>
+<a href="https://github.com/zanvd" style="font-size: 15px; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px; gap: 8px">All repositories on GitHub
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+</div>
+
+<!-- featured pair -->
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(420px, 1fr)); gap: 24px">
+<article style="background: #121417; color: #E9EAE6; border-radius: 16px; padding: 36px; display: flex; flex-direction: column; gap: 20px; min-height: 360px">
+<div style="display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #9BA1A8"><span>FEATURED · FINTECH</span><span>Go · TigerBeetle</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 600; letter-spacing: -0.02em; color: #FFFFFF">Ledger service</h3>
+<p style="margin: 0; font-size: 17px; color: #C9CCC6; max-width: 460px">A double-entry accounting service in front of a TigerBeetle cluster.</p>
+<!-- ledger motif -->
+<div aria-hidden="true" style="margin-top: auto; font-family: 'JetBrains Mono', monospace; font-size: 12px; border-top: 1px solid #2A2E34">
+<div style="display: grid; grid-template-columns: 1fr 90px 90px; padding: 10px 0; border-bottom: 1px solid #2A2E34; color: #9BA1A8"><span>account</span><span style="text-align: right">debit</span><span style="text-align: right">credit</span></div>
+<div style="display: grid; grid-template-columns: 1fr 90px 90px; padding: 10px 0; border-bottom: 1px solid #2A2E34"><span>wallet:alice</span><span style="text-align: right">100.00</span><span style="text-align: right; color: #6B7178">—</span></div>
+<div style="display: grid; grid-template-columns: 1fr 90px 90px; padding: 10px 0"><span>wallet:bob</span><span style="text-align: right; color: #6B7178">—</span><span style="text-align: right; color: #34D399">100.00</span></div>
+</div>
+<a class="foot-link" href="https://github.com/zanvd" style="color: #FFFFFF; font-weight: 500; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px">View source
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+</article>
+
+<article style="background: #FFFFFF; border: 1px solid #DCDDD8; border-radius: 16px; padding: 36px; display: flex; flex-direction: column; gap: 20px; min-height: 360px">
+<div style="display: flex; justify-content: space-between; font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B6068"><span>FEATURED · MEDIA</span><span>Go · agentic workflow</span></div>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 36px; font-weight: 600; letter-spacing: -0.02em">Slumber Mill</h3>
+<p style="margin: 0; font-size: 17px; color: #3A3E44; max-width: 460px">A multi-tenant audio ingest pipeline in Go, built with a gated agentic workflow.</p>
+<!-- pipeline motif -->
+<div aria-hidden="true" style="margin-top: auto; display: flex; align-items: center; gap: 10px; font-family: 'JetBrains Mono', monospace; font-size: 12px">
+<div style="display: flex; flex-direction: column; gap: 6px">
+<span style="padding: 6px 10px; border: 1px solid #DCDDD8; border-radius: 6px">tenant a</span>
+<span style="padding: 6px 10px; border: 1px solid #DCDDD8; border-radius: 6px">tenant b</span>
+<span style="padding: 6px 10px; border: 1px solid #DCDDD8; border-radius: 6px">tenant c</span>
+</div>
+<div style="flex: 1; height: 1px; background: #121417"></div>
+<span style="padding: 14px 16px; background: #121417; color: #F6F6F3; border-radius: 8px">ingest</span>
+<div style="flex: 1; height: 1px; background: #121417"></div>
+<span style="padding: 14px 16px; border: 1.5px solid #047857; color: #047857; border-radius: 8px">audio</span>
+</div>
+<a href="https://github.com/zanvd" style="font-weight: 500; font-size: 15px; display: inline-flex; align-items: center; gap: 8px; min-height: 44px">View source
+<svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+</article>
+</div>
+
+<!-- smaller projects -->
+<div style="margin-top: 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 24px">
+<article style="background: #FFFFFF; border: 1px solid #DCDDD8; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B6068">TAX · AGENTIC</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">DDV report builder</h3>
+<p style="margin: 0; font-size: 15px; color: #3A3E44">Slovenian VAT report builder, developed with an agentic-driven approach.</p>
+<a href="https://github.com/zanvd" style="margin-top: auto; font-size: 14px; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px">Source →</a>
+</article>
+<article style="background: #FFFFFF; border: 1px solid #DCDDD8; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B6068">GO → SYMFONY</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Finances tracker</h3>
+<p style="margin: 0; font-size: 15px; color: #3A3E44">Written in Go, later migrated to Symfony; deployed on DigitalOcean with Docker Compose.</p>
+<a href="https://github.com/zanvd" style="margin-top: auto; font-size: 14px; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px">Source →</a>
+</article>
+<article style="background: #FFFFFF; border: 1px solid #DCDDD8; border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 12px">
+<span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; color: #5B6068">GO · SCRAPING</span>
+<h3 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600">Lottery scraper</h3>
+<p style="margin: 0; font-size: 15px; color: #3A3E44">A web scraper for Slovenian lottery results, written in Go.</p>
+<a href="https://github.com/zanvd" style="margin-top: auto; font-size: 14px; font-weight: 500; display: inline-flex; align-items: center; min-height: 44px">Source →</a>
+</article>
+</div>
+</section>
+
+<!-- OPEN SOURCE -->
+<section id="open-source" style="max-width: 1200px; margin: 0 auto; padding: 128px 32px 0">
+<div style="display: flex; flex-wrap: wrap; gap: 48px">
+<div style="flex: 1 1 320px; min-width: 0">
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: 48px; font-weight: 600; letter-spacing: -0.03em; line-height: 1.1"><span style="font-family: 'JetBrains Mono', monospace; font-size: 15px; font-weight: 500; color: #047857; vertical-align: top; margin-right: 14px">04</span>Open source</h2>
+</div>
+<ul style="flex: 999 1 560px; min-width: 0; list-style: none; margin: 0; padding: 0; border-top: 1px solid #121417">
+<li style="border-bottom: 1px solid #DCDDD8"><a class="os-row" href="https://github.com/livekit/server-sdk-go" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 22px 0; text-decoration: none; min-height: 44px"><span style="flex: 1 1 240px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500">LiveKit Server SDK</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068">livekit/server-sdk-go</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 3px 8px; border: 1px solid #DCDDD8; border-radius: 6px; color: #3A3E44">Go</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a></li>
+<li style="border-bottom: 1px solid #DCDDD8"><a class="os-row" href="https://github.com/spf13/cobra" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 22px 0; text-decoration: none; min-height: 44px"><span style="flex: 1 1 240px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500">Cobra</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068">spf13/cobra</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 3px 8px; border: 1px solid #DCDDD8; border-radius: 6px; color: #3A3E44">Go</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a></li>
+<li style="border-bottom: 1px solid #DCDDD8"><a class="os-row" href="https://github.com/ThreeDotsLabs/watermill" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 22px 0; text-decoration: none; min-height: 44px"><span style="flex: 1 1 240px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500">Watermill</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068">ThreeDotsLabs/watermill</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 3px 8px; border: 1px solid #DCDDD8; border-radius: 6px; color: #3A3E44">Go</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a></li>
+<li style="border-bottom: 1px solid #DCDDD8"><a class="os-row" href="https://github.com/alexflint/go-arg" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 22px 0; text-decoration: none; min-height: 44px"><span style="flex: 1 1 240px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500">go-arg</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068">alexflint/go-arg</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 3px 8px; border: 1px solid #DCDDD8; border-radius: 6px; color: #3A3E44">Go</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a></li>
+<li style="border-bottom: 1px solid #DCDDD8"><a class="os-row" href="https://github.com/symfony/symfony" style="display: flex; flex-wrap: wrap; align-items: center; gap: 8px 24px; padding: 22px 0; text-decoration: none; min-height: 44px"><span style="flex: 1 1 240px; font-family: 'Space Grotesk', sans-serif; font-size: 24px; font-weight: 500">Symfony</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #5B6068">symfony/symfony</span><span style="font-family: 'JetBrains Mono', monospace; font-size: 12px; padding: 3px 8px; border: 1px solid #DCDDD8; border-radius: 6px; color: #3A3E44">PHP</span><svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a></li>
+</ul>
+</div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" style="margin-top: 128px; background: #121417; color: #E9EAE6">
+<div style="max-width: 1200px; margin: 0 auto; padding: 112px 32px 48px">
+<p style="margin: 0 0 24px; font-family: 'JetBrains Mono', monospace; font-size: 13px; color: #9BA1A8"><span style="color: #34D399">05</span>  CONTACT</p>
+<h2 style="margin: 0; font-family: 'Space Grotesk', sans-serif; font-size: clamp(44px, 7vw, 96px); font-weight: 600; letter-spacing: -0.04em; line-height: 1; color: #FFFFFF">Building something<br>that has to stay up?</h2>
+<a class="nav-cta" href="mailto:zan.v.dragan@gmail.com" style="margin-top: 40px; display: inline-flex; align-items: center; gap: 14px; min-height: 56px; padding: 0 28px; background: #F6F6F3; color: #121417; border-radius: 999px; text-decoration: none; font-family: 'JetBrains Mono', monospace; font-size: 17px; font-weight: 500">zan.v.dragan@gmail.com
+<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"></path></svg></a>
+<div style="margin-top: 112px; padding-top: 28px; border-top: 1px solid #2A2E34; display: flex; flex-wrap: wrap; justify-content: space-between; gap: 16px; font-size: 14px; color: #9BA1A8">
+<span>© 2026 Žan V. Dragan · Ljubljana, Slovenia</span>
+<div style="display: flex; flex-wrap: wrap; gap: 28px">
+<a class="foot-link" href="https://github.com/zanvd" style="color: #E9EAE6; display: inline-flex; align-items: center; min-height: 44px">GitHub</a>
+<a class="foot-link" href="https://www.linkedin.com/in/zan-v-dragan/" style="color: #E9EAE6; display: inline-flex; align-items: center; min-height: 44px">LinkedIn</a>
+<a class="foot-link" href="#top" style="color: #E9EAE6; display: inline-flex; align-items: center; min-height: 44px">Back to top ↑</a>
+</div>
+</div>
+</div>
+</section>
+</div>
+</body>
+</html>

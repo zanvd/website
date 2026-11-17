@@ -1,0 +1,15 @@
+<section id="contact" class="contact">
+  <div class="contact__inner container">
+    <p class="contact__eyebrow"><span>05</span>  CONTACT</p>
+    <h2>Building something<br>that has to stay up?</h2>
+    <a class="btn btn--light btn--lg" href="mailto:{{ config.extra.email }}">{{ config.extra.email }} {% include "partials/icons/arrow-up-right.html" %}</a>
+    <div class="contact__foot">
+      <span>© {{ now() | date(format="%Y") }} Žan V. Dragan · Ljubljana, Slovenia</span>
+      <div class="contact__links">
+        <a href="{{ config.extra.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
+        <a href="{{ config.extra.linkedin }}" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        <a href="#top">Back to top ↑</a>
+      </div>
+    </div>
+  </div>
+</section>

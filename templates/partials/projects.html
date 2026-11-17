@@ -1,0 +1,44 @@
+{% set p = load_data(path="data/projects.toml") %}
+<section id="projects" class="section container">
+  <div class="section__head">
+    <h2><span class="num">03</span>Side projects</h2>
+    <a class="link" href="{{ config.extra.github }}" target="_blank" rel="noopener noreferrer">All repositories on GitHub {% include "partials/icons/arrow-up-right.html" %}</a>
+  </div>
+
+  <div class="featured">
+    {% for f in p.featured %}
+    <article class="card card--{{ f.variant }}">
+      <div class="card__meta"><span>{{ f.label }}</span><span>{{ f.tech }}</span></div>
+      <h3>{{ f.title }}</h3>
+      <p>{{ f.summary }}</p>
+      {% if f.variant == "ledger" %}
+      <div class="motif ledger" aria-hidden="true">
+        <div class="ledger__row ledger__row--head"><span>account</span><span>debit</span><span>credit</span></div>
+        <div class="ledger__row"><span>wallet:alice</span><span>100.00</span><span class="dim">—</span></div>
+        <div class="ledger__row"><span>wallet:bob</span><span class="dim">—</span><span class="pos">100.00</span></div>
+      </div>
+      {% elif f.variant == "pipeline" %}
+      <div class="motif pipeline" aria-hidden="true">
+        <div class="pipeline__tenants"><span>tenant a</span><span>tenant b</span><span>tenant c</span></div>
+        <div class="pipeline__line"></div>
+        <span class="pipeline__node pipeline__node--ingest">ingest</span>
+        <div class="pipeline__line"></div>
+        <span class="pipeline__node pipeline__node--audio">audio</span>
+      </div>
+      {% endif %}
+      <a class="link" href="{{ f.url }}" target="_blank" rel="noopener noreferrer">View source {% include "partials/icons/arrow-up-right.html" %}</a>
+    </article>
+    {% endfor %}
+  </div>
+
+  <div class="small">
+    {% for s in p.small %}
+    <article class="card-sm">
+      <span class="card-sm__label">{{ s.label }}</span>
+      <h3>{{ s.title }}</h3>
+      <p>{{ s.summary }}</p>
+      <a class="link link--sm" href="{{ s.url }}" target="_blank" rel="noopener noreferrer">Source →</a>
+    </article>
+    {% endfor %}
+  </div>
+</section>

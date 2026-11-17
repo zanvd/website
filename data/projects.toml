@@ -1,0 +1,33 @@
+[[featured]]
+variant = "ledger"
+label = "FEATURED · FINTECH"
+tech = "Go · TigerBeetle"
+title = "Ledger service"
+summary = "A double-entry accounting service in front of a TigerBeetle cluster."
+url = "https://github.com/zanvd/ledger-beetle"
+
+[[featured]]
+variant = "pipeline"
+label = "FEATURED · MEDIA"
+tech = "Go · agentic workflow"
+title = "Slumber Mill"
+summary = "A multi-tenant audio ingest pipeline in Go, built with a gated agentic workflow."
+url = "https://github.com/zanvd/slumber-mill"
+
+[[small]]
+label = "TAX · AGENTIC"
+title = "DDV report builder"
+summary = "Slovenian VAT report builder, developed with an agentic-driven approach."
+url = "https://github.com/zanvd/ddv-reporter"
+
+[[small]]
+label = "GO → SYMFONY"
+title = "Finances tracker"
+summary = "Written in Go, later migrated to Symfony; deployed on DigitalOcean with Docker Compose."
+url = "https://github.com/zanvd/accountant"
+
+[[small]]
+label = "GO · SCRAPING"
+title = "Lottery scraper"
+summary = "A web scraper for Slovenian lottery results, written in Go."
+url = "https://github.com/zanvd/loterija"

@@ -1,0 +1,11 @@
+{% set os = load_data(path="data/opensource.toml") %}
+<section id="open-source" class="section container">
+  <div class="os">
+    <div class="os__head"><h2><span class="num">04</span>Open source</h2></div>
+    <ul class="os__list">
+      {% for r in os.repo %}
+      <li><a class="os-row" href="https://github.com/{{ r.path }}" target="_blank" rel="noopener noreferrer"><span class="os-row__name">{{ r.name }}</span><span class="os-row__path">{{ r.path }}</span><span class="os-row__lang">{{ r.lang }}</span>{% include "partials/icons/arrow-up-right.html" %}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>

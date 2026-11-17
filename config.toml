@@ -1,0 +1,11 @@
+base_url = "https://zanvd.dev"
+title = "Žan V. Dragan — Software Engineer"
+description = "Backend software engineer in Ljubljana with 9+ years building APIs, event-driven services and infrastructure in Go, TypeScript, Python and PHP."
+compile_sass = false
+build_search_index = false
+generate_feeds = false
+
+[extra]
+email = "zan.v.dragan@gmail.com"
+github = "https://github.com/zanvd"
+linkedin = "https://www.linkedin.com/in/zan-v-dragan/"

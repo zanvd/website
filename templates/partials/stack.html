@@ -1,0 +1,12 @@
+{% set stack = load_data(path="data/stack.toml") %}
+<section id="stack" class="section container">
+  <div class="section__head"><h2><span class="num">02</span>Stack</h2></div>
+  <div class="stack">
+    {% for g in stack.group %}
+    <div class="stack__group">
+      <h3>{{ g.label }}</h3>
+      <p>{{ g.items }}</p>
+    </div>
+    {% endfor %}
+  </div>
+</section>

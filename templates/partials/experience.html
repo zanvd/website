@@ -1,0 +1,18 @@
+{% set exp = load_data(path="data/experience.toml") %}
+<section id="work" class="section container">
+  <div class="section__head"><h2><span class="num">01</span>Experience</h2></div>
+  <div class="rows">
+    {% for job in exp.job %}
+    <article class="job">
+      <p class="job__meta"><span>{{ job.dates }}</span><span>{{ job.place }}</span></p>
+      <div class="job__body">
+        <h3>{{ job.company }}</h3>
+        <p class="job__kind">{{ job.kind }}</p>
+        <p class="job__summary">{{ job.summary }}</p>
+        <ul class="tags">{% for t in job.tags %}<li>{{ t }}</li>{% endfor %}</ul>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  <p class="edu">Education: Faculty of Computer and Information Science, University of Ljubljana · 2014 — 2017</p>
+</section>

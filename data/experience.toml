@@ -1,0 +1,39 @@
+[[job]]
+company = "GateHub"
+dates = "03/2025 — 06/2026"
+place = "Remote"
+kind = "Fintech & crypto · Microservices backend"
+summary = "Built NestJS and Express microservices in TypeScript on MySQL and Redis, developed GraphQL and REST APIs, handled events with RabbitMQ and designed new features, running on Docker, Kubernetes and Google Cloud."
+tags = ["TypeScript", "NestJS", "MySQL", "RabbitMQ", "GraphQL", "Kubernetes", "GCP"]
+
+[[job]]
+company = "Soniox"
+dates = "06/2024 — 09/2024"
+place = "Ljubljana"
+kind = "Speech AI · APIs & ML data tooling"
+summary = "Developed REST and gRPC APIs with Django (DRF, Django Ninja), designed features and architecture, built a FastAPI + SQLAlchemy proof of concept, and prepared ML training data with Python, parallelised with Ray."
+tags = ["Python", "Django", "FastAPI", "gRPC", "PostgreSQL", "Ray"]
+
+[[job]]
+company = "BitStarz Casino"
+dates = "10/2022 — 05/2024"
+place = "Remote"
+kind = "iGaming · Platform backend in Go"
+summary = "Backend for an online casino platform: PostgreSQL queries, Kafka event handling, websockets via Centrifugo, GraphQL and gRPC APIs, Redis caching and sessions, with Grafana monitoring."
+tags = ["Go", "Kafka", "Centrifugo", "PostgreSQL", "gRPC", "Grafana"]
+
+[[job]]
+company = "PROGMBH"
+dates = "01/2018 — 08/2022"
+place = "Ljubljana"
+kind = "E-commerce SaaS · Full-stack & integrations"
+summary = "E-commerce development with CakePHP, Symfony and TypeScript; product requirements and enterprise clients; an Nginx + Lua load balancer, in-house libraries, Bitbucket CI/CD, Terraform on AWS, and integrations with Stripe, Braintree, Coinbase, Zapier and ERPs."
+tags = ["PHP", "Symfony", "TypeScript", "Nginx / Lua", "Stripe", "Terraform"]
+
+[[job]]
+company = "Result"
+dates = "06/2016 — 12/2017"
+place = "Ljubljana"
+kind = "Web development · Legacy modernisation"
+summary = "Web development with PHP and ExtJS, porting COBOL applications to PHP, Groovy scripting, and administering Jira and Confluence."
+tags = ["PHP", "ExtJS", "COBOL", "Groovy"]
