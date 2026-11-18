@@ -40,11 +40,11 @@ Put all of these in the site's public root.
 <link rel="manifest" href="/site.webmanifest">
 <meta name="theme-color" content="#F6F6F3">
 
-<title>Žan V. Dragan — Software Engineer</title>
+<title>Žan V. Dragan - Software Engineer</title>
 <meta name="description" content="[DESCRIPTION, ~150 characters]">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://[DOMAIN]/">
-<meta property="og:title" content="Žan V. Dragan — Software Engineer">
+<meta property="og:title" content="Žan V. Dragan - Software Engineer">
 <meta property="og:description" content="[DESCRIPTION]">
 <meta property="og:image" content="https://[DOMAIN]/og-image.png">
 <meta property="og:image:width" content="1200">

@@ -1,3 +1,3 @@
 +++
-title = "Žan V. Dragan — Software Engineer"
+title = "Žan V. Dragan - Software Engineer"
 +++
